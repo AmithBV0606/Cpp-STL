@@ -78,5 +78,11 @@ int main()
         cout << *(it) << " ";
     }
 
+    // Using for-each loop :
+    for (auto it : v)
+    {
+        cout << it << " ";
+    }
+
     return 0;
 }
