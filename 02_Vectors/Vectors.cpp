@@ -13,6 +13,8 @@ int main()
     vec.emplace_back(1, 2);
 
     // Creates a vector of size 5 and fills it with the number 100.
+
+    // vector<T> vec_name(size, value); 
     vector<int> vec2(5, 100);
 
     // Creates a vector of size 5.
